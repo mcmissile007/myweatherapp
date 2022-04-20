@@ -17,7 +17,7 @@ class DataAPIWeather(ABC):
     @abstractmethod
     def current_weather(self, units: str) -> List[DataView]:
         """
-        show in the console the  current weather conditions
+        return the  current weather conditions
         @param units for temperature : metric or imperial
         @return a list of DataView objects
         """
@@ -25,7 +25,7 @@ class DataAPIWeather(ABC):
     @abstractmethod
     def forecast_weather(self, units: str, days: int) -> List[DataView]:
         """
-        show in the console the forecast weather conditions
+        return the forecast weather conditions
         @param: units for temperature (metric or imperial)
         @param: days: days to retrieve forecast data for
         @return: a list of Dataview objects
