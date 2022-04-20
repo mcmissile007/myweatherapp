@@ -6,7 +6,7 @@ Application to get the current weather and weather forecast for a given location
         locations: in "{city},{country code}" format. \
     Optionals:\
         --units (metric or imperial)\
-        --days (integer between 1 and 5)\
+        --days (integer between 1 and 5)
 
 
 Examples:\
